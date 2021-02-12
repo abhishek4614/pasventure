@@ -337,25 +337,30 @@ section .title::after{
 } */
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #303aa7;
+    background: #333333a8;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
+    padding: 30px 25px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     transition: all 0.3s ease;
 }
 .services .card .box img{
     height: 4rem;
-    width: 4.5rem;
-    
-    
+    width: 4.5rem;   
 }
+.services .card .box img:hover{
+    height: 4.5rem;
+    width: 4.5rem; 
+    background-color: white;  
+}
+
 .services .max-width h2{
 color: black;
 }
 .services .serv-content .card:hover{
     background: #1687a7;
+    box-shadow: 5px 10px #888;
 }
 .services .serv-content .card .box{
     transition: all 0.5s ease;
@@ -466,7 +471,7 @@ color: black;
     background: rgb(187, 183, 183); 
 }
 .teams .carousel .card{
-    background: #303aa7;
+    background: #333333a8;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
